@@ -1,0 +1,63 @@
+.welcome-background {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 45%;
+    height: 100%;
+}
+
+.diagonal-rectangle {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    right: 40%;
+    transform: skew(-12deg);
+    background-color: #0D1821;
+}
+
+.info-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 55%;
+    height: 100%;
+    background-color: #0D1821;
+}
+
+.github-link {
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+}
+
+.name {
+    color: #0D1821;
+    background-color: #d4d2d2;
+    font-size: xx-large;
+}
+
+.type {
+    position: absolute;
+    visibility: hidden;
+    width: 45%;
+    top: 20%;
+    left: 35%;
+    color: #d4d2d2;
+    font-size: x-large;
+    font-family: monospace, monospace;
+}
+
+a {
+    color: #d4d2d2;
+    font-family: monospace, monospace;
+}
+
+a.continue {
+    position: absolute;
+    visibility: hidden;
+    text-decoration: none;
+    bottom: 30%;
+    left: 35%;
+    font-size: x-large;
+}
